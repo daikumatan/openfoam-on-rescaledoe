@@ -1,4 +1,4 @@
-openfoam-on-rescaledoe
+1. openfoam-on-rescaledoe
 =========================
 
 これは Rescale上でDOEを実行するためのサンプルです。アプリケーションはOpenFOAMを用いています。
