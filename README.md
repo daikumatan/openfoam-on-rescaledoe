@@ -1,15 +1,21 @@
-# openfoam-on-rescaledoe
+openfoam-on-rescaledoe
+=========================
+
+これは Rescale上でDOEを実行するためのサンプルです。アプリケーションはOpenFOAMを用いています。
 This is the sample of Rescale DOE by using OpenFOAM.
 
 
-ベースとしたOpenFOAMサンプル
-----------------------------------
+概要
+-----------
+
+### OpenFOAMサンプル, airFoil2Dを利用
+
 
 OpenFOAM-2.3.x から [airFoil2Dのサンプル](https://github.com/OpenFOAM/OpenFOAM-2.3.x/tree/master/tutorials/incompressible/simpleFoam/airFoil2D)をベースとしています.
 
 
-オリジナルのairFoil2Dからの修正点
-------------------------------------
+### オリジナルのairFoil2Dからの修正点
+
 
 - Allrun and controlDict が修正されています。
 - replaceが追加されています。
@@ -27,6 +33,7 @@ airFoil2D
         ├── fvSchemes
             └── fvSolution
 ```
+
 
 
 
